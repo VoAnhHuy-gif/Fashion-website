@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Shield, CheckCircle } from "lucide-react";
 
-import ChangePasswordForm from "./changePasswordForm";
+import ChangePasswordForm from "./ChangePasswordForm";
 
 const SecurityTab = () => {
   const [showEdit, setShowEdit] = useState(false);

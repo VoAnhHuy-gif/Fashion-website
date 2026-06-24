@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import { useChat } from "../store/chatStore";
 
-const SOCKET_URL = "http://localhost:8006";
+const SOCKET_URL = "http://52.65.94.204:8006";
 
 export const useSocket = (user, userType = "user") => {
   const {

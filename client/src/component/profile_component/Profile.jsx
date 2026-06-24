@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 import { useQuery } from "@tanstack/react-query";
 import { userService } from "../../services/userService";
 import Spinner from "../common/Spinner";
-import SecurityTab from "./securityTab";
+import SecurityTab from "./SecurityTab";
 import ProfileTab from "./ProfileTab";
 import { useAuth } from "../../store/authStore";
 import ProfileHeader from "./ProfileHeader";
